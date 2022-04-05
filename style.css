@@ -1,3 +1,201 @@
+
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.navigation {
+  background-color:#1E1E1E;
+  height:103px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 140px;
+  font-family: chantal, sans-serif;
+  font-weight: 300;
+  font-size:22px;
+  color:#EAE2D8;
+}
+  
+ ul {
+  margin: 0;
+  padding: 0;
+} 
+ 
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+  
+ul li {
+  list-style: none;
+}
+  
+li a {
+  text-decoration: none;
+  padding: 20px;
+  color:#EAE2D8;
+  font-family: urbana, sans-serif;
+  font-weight: 400;
+  font-size:13pt;
+}
+
+li a:hover {
+  color: #F9DF4B;
+}
+
+.hero {
+  background-image:url(images/keith_main_hero.png);
+  width:1140px;
+  height:520px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image:linear-gradient(to right, rgba(249, 223, 75, 1), rgba(249, 223, 75, 0), rgba(249, 223, 75, 0)),
+  url(images/keith_main_hero.png);
+  font-family: urbana, sans-serif;
+  font-weight: 400;
+  font-size:14pt;
+  text-align:center;
+}
+
+.hero_content {
+  position: absolute;
+  top:132px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero_content img {
+  width: 345px;
+}
+
+button {
+  padding: 8px 22px;
+  border-radius: 25px;
+  border: solid #1E1E1E 3px;
+  background:white;
+  color: #1E1E1E;
+  font-size: 15px;
+  font-family: urbana, sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+button:hover {
+  background:#FEDE01;
+  color: #1E1E1E;
+}
+
+.carousel_nav {
+  background-color:#EF4F3F;
+  height:40px;
+}
+
+.about_timeline {
+  height:2282px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote h3 {
+  font-family: chantal, sans-serif;
+  font-weight: 300;
+  font-size:25px;
+  color:#EAE2D8;
+  background: #1E1E1E;
+  padding:20px 30px;
+  text-align:center;
+  margin-top:93px;
+  margin-bottom:110px;
+}
+
 h1 {
-    color:peru;
+  color: #1E1E1E;
+  font-size: 36px;
+  font-family: urbana, sans-serif;
+  font-weight: 700;
+  margin-bottom:5px;
+}
+
+h2 {
+  color: #8E8E8E;
+  font-size: 20px;
+  font-family: urbana, sans-serif;
+  font-weight: 400;
+  margin-top:0;
+  margin-bottom:30px;
+}
+
+p {
+  color: #1E1E1E;
+  font-size:14px;
+  font-family: pt-serif, serif;
+  font-weight: 400;
+}
+
+.the_artist {
+  display:flex;
+  margin-left:50px;
+}
+
+.the_artist .card-1 {
+  order:1;
+  padding:25px;
+}
+
+.the_artist .card-2 {
+  order:2;
+  width:630px;
+}
+
+.section_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:105px;
+}
+
+.evolution {
+  display:flex;
+  justify-content:center;
+  align-content:center;
+}
+
+.evolution .card-1 {
+  margin:27px;
+  background:#1E1E1E;
+  height:293px;
+  width:297px;
+}
+
+.evolution .card-1 img {
+  width:297px;
+}
+
+.evolution .card-1 p {
+  color:#EAE2D8;
+  text-align:center;
+  margin-top:18px;
+}
+
+.artwork {
+  background-color:#1E1E1E;
+  height:1118px;
+}
+
+.legacy {
+  height:1740px;
+}
+
+.footer {
+  background-color:#1E1E1E;
+  height:152px;
 }
