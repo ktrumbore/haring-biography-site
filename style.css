@@ -91,12 +91,12 @@ button:hover {
 }
 
 .carousel_nav {
-  background-color:#EF4F3F;
+  background-color:#1E1E1E;
   height:40px;
 }
 
 .about_timeline {
-  height:2282px;
+  height:2420px;
 }
 
 .quote {
@@ -114,14 +114,14 @@ button:hover {
   padding:20px 30px;
   text-align:center;
   margin-top:93px;
-  margin-bottom:110px;
+  margin-bottom:80px;
 }
 
 h1 {
   color: #1E1E1E;
   font-size: 36px;
   font-family: urbana, sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom:5px;
 }
 
@@ -149,28 +149,31 @@ p {
 .the_artist .card-1 {
   order:1;
   padding:25px;
+  margin-left:25px;
 }
 
 .the_artist .card-2 {
   order:2;
   width:630px;
+  margin-right:20px;
 }
 
 .section_title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top:105px;
+  margin-top:70px;
 }
 
 .evolution {
   display:flex;
   justify-content:center;
   align-content:center;
+  margin-bottom:55px;
 }
 
 .evolution .card-1 {
-  margin:27px;
+  margin:15px;
   background:#1E1E1E;
   height:293px;
   width:297px;
@@ -186,9 +189,120 @@ p {
   margin-top:18px;
 }
 
+.artschool {
+  display:flex;
+  justify-content:center;
+  align-content:center;
+}
+
+.artschool .card-1 {
+  width:510px;
+  padding:25px;
+}
+
+.artschool .card-2 img {
+  margin-top:70px;
+  margin-right: 20px;
+}
+
+.publiceye {
+  display:flex;
+  justify-content:center;
+  align-content:center;
+  margin-top:45px;
+}
+
+.publiceye .card-1 {
+  margin-top:55px;
+  margin-left:30px;
+}
+
+iframe {
+  border:7pt solid #1E1E1E;
+}
+
+.publiceye .card-2 {
+  width:400px;
+  padding:25px;
+}
+
+.foreveryone {
+  display:flex;
+  justify-content:center;
+  align-content:center;
+  margin-top:70px;
+}
+
+.foreveryone .card-1 {
+  width:400px;
+  padding:25px;
+}
+
+.foreveryone .card-2 {
+  margin-top:55px;
+}
+
 .artwork {
   background-color:#1E1E1E;
-  height:1118px;
+  height:1188px;
+  margin-top:-75px;
+}
+
+.artwork .section_title h1 {
+  color: white;
+  margin-top:160px;
+  margin-bottom:10px;
+}
+
+.selectedwork {
+  display:flex;
+  justify-content:center;
+  align-content:center;
+}
+
+.selectedwork .card-1 {
+  margin:15px;
+  background:white;
+  height:340px;
+  width:296px;
+  text-align:center;
+}
+
+.selectedwork .card-1 button {
+  margin-top:0px;
+  padding: 6px 25px;
+}
+
+.selectedwork .card-1 p {
+  color: #1E1E1E;
+  text-align:center;
+  margin-top:18px;
+}
+
+.selectedwork2 {
+  display:flex;
+  justify-content:center;
+  align-content:center;
+  margin-bottom:50px;
+}
+
+.selectedwork2 .card-1 {
+  margin:15px;
+  background:white;
+  height:340px;
+  width:297px;
+  text-align:center;
+}
+
+.selectedwork2 .card-1 button {
+  margin-top:0px;
+  padding: 6px 25px;
+}
+
+.selectedwork2 .card-1 p {
+  color: #1E1E1E;
+  text-align:center;
+  margin-top:18px;
 }
 
 .legacy {
