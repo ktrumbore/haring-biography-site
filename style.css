@@ -42,7 +42,7 @@ li a {
 }
 
 li a:hover {
-  color: #F9DF4B;
+  color: #F16125;
 }
 
 .hero {
@@ -83,6 +83,7 @@ button {
   font-family: urbana, sans-serif;
   font-weight: 600;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 button:hover {
@@ -93,6 +94,7 @@ button:hover {
 .carousel_nav {
   background-color:#1E1E1E;
   height:40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 .about_timeline {
@@ -115,6 +117,7 @@ button:hover {
   text-align:center;
   margin-top:93px;
   margin-bottom:80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 h1 {
@@ -246,6 +249,7 @@ iframe {
   background-color:#1E1E1E;
   height:1108px;
   margin-top:-75px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 .artwork .section_title h1 {
@@ -377,7 +381,7 @@ h5 {
 
 .footer {
   background-color:#1E1E1E;
-  height:152px;
+  height:172px;
   display:flex;
 }
 
@@ -400,4 +404,13 @@ h5 {
 
 .footer .card-2 {
   width:230px;
+}
+
+.footer .card-2 img {
+  padding:2px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
 }
