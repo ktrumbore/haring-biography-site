@@ -39,6 +39,11 @@ li a {
   font-family: urbana, sans-serif;
   font-weight: 400;
   font-size:13pt;
+  transition: all .2s ease-in-out;
+}
+
+li:hover {
+  transform: scale(1.08) perspective(1px);
 }
 
 li a:hover {
@@ -84,11 +89,13 @@ button {
   font-weight: 600;
   margin-top: 30px;
   cursor: pointer;
+  transition: all .2s ease-in-out;
 }
 
 button:hover {
   background:#FEDE01;
   color: #1E1E1E;
+  transform: scale(1.05) perspective(1px);
 }
 
 .carousel_nav {
@@ -180,6 +187,7 @@ p {
   background:#1E1E1E;
   height:293px;
   width:297px;
+  position:relative;
 }
 
 .evolution .card-1 img {
@@ -190,6 +198,38 @@ p {
   color:#EAE2D8;
   text-align:center;
   margin-top:18px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:rgba(0, 0, 0, 0.85);
+}
+
+.overlay p {
+  color: white;
+  position: absolute;
+  text-align: center;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.overlay h2 {
+  text-align:center;
+  margin-top:45px;
+  margin-bottom:10px;
+  color:white;
+}
+
+.card-1:hover .overlay {
+  opacity: 1;
 }
 
 .artschool {
@@ -408,6 +448,11 @@ h5 {
 
 .footer .card-2 img {
   padding:2px;
+  transition: all .2s ease-in-out;
+}
+
+.footer .card-2 img:hover {
+  transform: scale(1.09) perspective(1px);
 }
 
 a {
