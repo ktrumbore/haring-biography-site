@@ -43,39 +43,105 @@ li a {
 }
 
 li:hover {
-  transform: scale(1.08) perspective(1px);
+  transform: scale(1.05) perspective(1px);
 }
 
 li a:hover {
   color: #F16125;
 }
 
-.hero {
-  background-image:url(images/keith_main_hero.png);
+.slider {
   width:1140px;
   height:520px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image:linear-gradient(to right, rgba(249, 223, 75, 1), rgba(249, 223, 75, 0), rgba(249, 223, 75, 0)),
-  url(images/keith_main_hero.png);
   font-family: urbana, sans-serif;
   font-weight: 400;
   font-size:14pt;
   text-align:center;
+  position: relative;
+  overflow: hidden;
 }
 
-.hero_content {
+.slide {
   position: absolute;
-  top:132px;
-  left: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
 }
 
-.hero_content img {
-  width: 345px;
+.slide.current {
+  opacity: 1;
+}
+
+.slide .content {
+  position: absolute;
+  bottom: 120px;
+  left: -680px; 
+  width: 600px;
+  opacity: 0px; 
+  color: #333;
+  padding: 35px;
+}
+
+.slide .content h1 {
+  margin-bottom: 10px;
+  margin-top:20px;
+}
+
+.slide.current .content {
+  opacity: 1;
+  transform: translateX(600px);
+  transition: all 0.7s ease-in-out 0.3s;
+}
+
+.buttons button#next {
+  margin-top:15px;
+}
+
+.buttons button#prev {
+  margin-top:15px;
+  margin-left:530px;
+}
+
+.buttons button {
+  border: none;
+  background: rgba(255,255,255,1);
+  color: #fff;
+  cursor: pointer;
+  text-align:center;
+  padding:5px;
+  margin:5px;
+  height:20px;
+  width:20px;
+}
+
+.buttons button:hover {
+  background: #FEDE01;
+  color: #333;
+}
+
+.buttons button p {
+  margin-top:-4px;
+}
+
+.slide:first-child {
+  background-image: url(images/keith_hero1.png);
+  background-size: cover;
+}
+
+.slide:nth-child(2) {
+  background-image: url(images/keith_hero2.png);
+  background-size: cover;
+}
+
+.slide:nth-child(3) {
+  background-image: url(images/keith_hero3.png);
+  background-size: cover;
 }
 
 button {
@@ -100,12 +166,12 @@ button:hover {
 
 .carousel_nav {
   background-color:#1E1E1E;
-  height:40px;
+  height:50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 .about_timeline {
-  height:2420px;
+  height:2380px;
 }
 
 .quote {
@@ -287,7 +353,7 @@ iframe {
 
 .artwork {
   background-color:#1E1E1E;
-  height:1108px;
+  height:1150px;
   margin-top:-75px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
