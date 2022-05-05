@@ -36,6 +36,6 @@ prev.addEventListener('click', e => {
     prevSlide();
 });
 
-if(auto) {
-  slideInterval = setInterval(nextSlide, intervalTime);
+if (auto) {
+    slideInterval = setInterval(nextSlide, intervalTime);
 }

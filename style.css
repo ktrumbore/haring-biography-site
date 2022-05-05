@@ -4,39 +4,39 @@
 }
 
 .navigation {
-  background-color:#1E1E1E;
-  height:103px;
+  background-color: #1E1E1E;
+  height: 103px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 140px;
   font-family: chantal, sans-serif;
   font-weight: 300;
-  font-size:22px;
-  color:#FEDE01;
+  font-size: 22px;
+  color: #FEDE01;
 }
-  
- ul {
+
+ul {
   margin: 0;
   padding: 0;
-} 
- 
+}
+
 nav ul {
   display: flex;
   justify-content: center;
 }
-  
+
 ul li {
   list-style: none;
 }
-  
+
 li a {
   text-decoration: none;
   padding: 20px;
-  color:#EAE2D8;
+  color: #EAE2D8;
   font-family: urbana, sans-serif;
   font-weight: 400;
-  font-size:13pt;
+  font-size: 13pt;
   transition: all .2s ease-in-out;
 }
 
@@ -49,15 +49,14 @@ li a:hover {
 }
 
 .slider {
-  width:1140px;
-  height:520px;
+  width: 1140px;
+  height: 520px;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   font-family: urbana, sans-serif;
   font-weight: 400;
   font-size: 14pt;
-  text-align:center;
+  text-align: center;
   position: relative;
   overflow: hidden;
 }
@@ -79,16 +78,16 @@ li a:hover {
 .slide .content {
   position: absolute;
   bottom: 120px;
-  left: -680px; 
+  left: -680px;
   width: 600px;
-  opacity: 0px; 
+  opacity: 0px;
   color: #333;
   padding: 35px;
 }
 
 .slide .content h1 {
   margin-bottom: 10px;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 .slide.current .content {
@@ -98,24 +97,24 @@ li a:hover {
 }
 
 .buttons button#next {
-  margin-top:15px;
+  margin-top: 15px;
 }
 
 .buttons button#prev {
-  margin-top:15px;
-  margin-left:530px;
+  margin-top: 15px;
+  margin-left: 530px;
 }
 
 .buttons button {
   border: none;
-  background: rgba(255,255,255,1);
+  background: rgba(255, 255, 255, 1);
   color: #fff;
   cursor: pointer;
-  text-align:center;
-  padding:5px;
-  margin:5px;
-  height:20px;
-  width:20px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  height: 20px;
+  width: 20px;
 }
 
 .buttons button:hover {
@@ -124,7 +123,7 @@ li a:hover {
 }
 
 .buttons button p {
-  margin-top:-4px;
+  margin-top: -4px;
 }
 
 .slide:first-child {
@@ -146,7 +145,7 @@ button {
   padding: 8px 22px;
   border-radius: 25px;
   border: solid #1E1E1E 3px;
-  background:white;
+  background: white;
   color: #1E1E1E;
   font-size: 15px;
   font-family: urbana, sans-serif;
@@ -157,19 +156,19 @@ button {
 }
 
 button:hover {
-  background:#FEDE01;
+  background: #FEDE01;
   color: #1E1E1E;
   transform: scale(1.05) perspective(1px);
 }
 
 .carousel_nav {
-  background-color:#1E1E1E;
-  height:50px;
+  background-color: #1E1E1E;
+  height: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 .about_timeline {
-  height:2380px;
+  height: 2380px;
 }
 
 .quote {
@@ -181,13 +180,13 @@ button:hover {
 .quote h3 {
   font-family: chantal, sans-serif;
   font-weight: 300;
-  font-size:25px;
-  color:#EAE2D8;
+  font-size: 25px;
+  color: #EAE2D8;
   background: #1E1E1E;
-  padding:20px 30px;
-  text-align:center;
-  margin-top:93px;
-  margin-bottom:80px;
+  padding: 20px 30px;
+  text-align: center;
+  margin-top: 93px;
+  margin-bottom: 80px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
@@ -196,7 +195,7 @@ h1 {
   font-size: 36px;
   font-family: urbana, sans-serif;
   font-weight: 600;
-  margin-bottom:5px;
+  margin-bottom: 5px;
 }
 
 h2 {
@@ -204,64 +203,64 @@ h2 {
   font-size: 20px;
   font-family: urbana, sans-serif;
   font-weight: 400;
-  margin-top:0;
-  margin-bottom:30px;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 p {
   color: #1E1E1E;
-  font-size:14px;
+  font-size: 14px;
   font-family: pt-serif, serif;
   font-weight: 400;
 }
 
 .the_artist {
-  display:flex;
-  margin-left:50px;
+  display: flex;
+  margin-left: 50px;
 }
 
 .the_artist .card-1 {
-  order:1;
-  padding:25px;
-  margin-left:25px;
+  order: 1;
+  padding: 25px;
+  margin-left: 25px;
 }
 
 .the_artist .card-2 {
-  order:2;
-  width:630px;
-  margin-right:20px;
+  order: 2;
+  width: 630px;
+  margin-right: 20px;
 }
 
 .section_title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top:70px;
+  margin-top: 70px;
 }
 
 .evolution {
-  display:flex;
-  justify-content:center;
-  align-content:center;
-  margin-bottom:55px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 55px;
 }
 
 .evolution .card-1 {
-  margin:15px;
-  background:#1E1E1E;
-  height:293px;
-  width:297px;
-  position:relative;
+  margin: 15px;
+  background: #1E1E1E;
+  height: 293px;
+  width: 297px;
+  position: relative;
 }
 
 .evolution .card-1 img {
-  width:297px;
+  width: 297px;
 }
 
 .evolution .card-1 p {
-  color:#EAE2D8;
-  text-align:center;
-  margin-top:18px;
+  color: #EAE2D8;
+  text-align: center;
+  margin-top: 18px;
 }
 
 .overlay {
@@ -274,22 +273,22 @@ p {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color:rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.85);
 }
 
 .overlay p {
   color: white;
   position: absolute;
   text-align: center;
-  padding-left:20px;
-  padding-right:20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .overlay h2 {
-  text-align:center;
-  margin-top:45px;
-  margin-bottom:10px;
-  color:white;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  color: white;
 }
 
 .card-1:hover .overlay {
@@ -297,225 +296,225 @@ p {
 }
 
 .artschool {
-  display:flex;
-  justify-content:center;
-  align-content:center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .artschool .card-1 {
-  width:510px;
-  padding:25px;
+  width: 510px;
+  padding: 25px;
 }
 
 .artschool .card-2 img {
-  margin-top:70px;
+  margin-top: 70px;
   margin-right: 20px;
 }
 
 .publiceye {
-  display:flex;
-  justify-content:center;
-  align-content:center;
-  margin-top:45px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 45px;
 }
 
 .publiceye .card-1 {
-  margin-top:55px;
-  margin-left:30px;
+  margin-top: 55px;
+  margin-left: 30px;
 }
 
 iframe {
-  border:7pt solid #1E1E1E;
+  border: 7pt solid #1E1E1E;
 }
 
 .publiceye .card-2 {
-  width:400px;
-  padding:25px;
+  width: 400px;
+  padding: 25px;
 }
 
 .foreveryone {
-  display:flex;
-  justify-content:center;
-  align-content:center;
-  margin-top:70px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 70px;
 }
 
 .foreveryone .card-1 {
-  width:400px;
-  padding:25px;
+  width: 400px;
+  padding: 25px;
 }
 
 .foreveryone .card-2 {
-  margin-top:55px;
+  margin-top: 55px;
 }
 
 .artwork {
-  background-color:#1E1E1E;
-  height:1150px;
-  margin-top:-75px;
+  background-color: #1E1E1E;
+  height: 1150px;
+  margin-top: -75px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 .artwork .section_title h1 {
   color: white;
-  margin-top:160px;
-  margin-bottom:10px;
+  margin-top: 160px;
+  margin-bottom: 10px;
 }
 
 .selectedwork {
-  display:flex;
-  justify-content:center;
-  align-content:center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .selectedwork .card-1 {
-  margin:15px;
-  background:white;
-  height:340px;
-  width:296px;
-  text-align:center;
+  margin: 15px;
+  background: white;
+  height: 340px;
+  width: 296px;
+  text-align: center;
 }
 
 .selectedwork .card-1 button {
-  margin-top:0px;
+  margin-top: 0px;
   padding: 6px 25px;
 }
 
 .selectedwork .card-1 p {
   color: #1E1E1E;
-  text-align:center;
-  margin-top:18px;
+  text-align: center;
+  margin-top: 18px;
 }
 
 .selectedwork2 {
-  display:flex;
-  justify-content:center;
-  align-content:center;
-  margin-bottom:90px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 90px;
 }
 
 .selectedwork2 .card-1 {
-  margin:15px;
-  background:white;
-  height:340px;
-  width:297px;
-  text-align:center;
+  margin: 15px;
+  background: white;
+  height: 340px;
+  width: 297px;
+  text-align: center;
 }
 
 .selectedwork2 .card-1 button {
-  margin-top:0px;
+  margin-top: 0px;
   padding: 6px 25px;
 }
 
 .selectedwork2 .card-1 p {
   color: #1E1E1E;
-  text-align:center;
-  margin-top:18px;
+  text-align: center;
+  margin-top: 18px;
 }
 
 .legacy {
-  height:2020px;
+  height: 2020px;
 }
 
 .justice {
-  display:flex;
-  justify-content:center;
-  align-content:center;
-  margin-bottom:50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 50px;
 }
 
 .justice .card-1 {
-  padding:25px;
-  margin-left:-40px;
+  padding: 25px;
+  margin-left: -40px;
 }
 
 .justice .card-2 {
-  width:510px;
-  margin-right:20px;
-  margin-top:120px;
+  width: 510px;
+  margin-right: 20px;
+  margin-top: 120px;
 }
 
 .hiv {
-  display:flex;
-  justify-content:center;
-  align-content:center;
-  margin-bottom:50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 50px;
 }
 
 .hiv .card-1 {
-  padding:25px;
-  width:500px;
-  margin-left:-50px;
-  margin-bottom:50px;
+  padding: 25px;
+  width: 500px;
+  margin-left: -50px;
+  margin-bottom: 50px;
 }
 
 .hiv .card-2 {
-  width:420px;
-  padding-top:135px;
+  width: 420px;
+  padding-top: 135px;
 }
 
 .hiv button {
-  margin-top:10px;
+  margin-top: 10px;
   padding: 6px 25px;
 }
 
 h4 {
   font-family: chantal, sans-serif;
   font-weight: 300;
-  font-size:16px;
-  color:#1E1E1E;
-  margin-left:850px;
-  margin-top:10px;
+  font-size: 16px;
+  color: #1E1E1E;
+  margin-left: 850px;
+  margin-top: 10px;
 }
 
 .closing {
-  text-align:center;
-  margin:auto;
-  width:700px;
-  margin-bottom:50px;
-  margin-top:80px;
+  text-align: center;
+  margin: auto;
+  width: 700px;
+  margin-bottom: 50px;
+  margin-top: 80px;
 }
 
 h5 {
   color: #1E1E1E;
-  font-size:14px;
+  font-size: 14px;
   font-family: pt-serif, serif;
   font-weight: 700;
 }
 
 .heritageimage {
-  margin-left:-10px;
+  margin-left: -10px;
 }
 
 .footer {
-  background-color:#1E1E1E;
-  height:172px;
-  display:flex;
+  background-color: #1E1E1E;
+  height: 172px;
+  display: flex;
 }
 
 .footer h4 {
-  color:#EAE2D8;
-  font-size:20px;
-  margin-top:42px;
-  margin-left:0px;
+  color: #EAE2D8;
+  font-size: 20px;
+  margin-top: 42px;
+  margin-left: 0px;
 }
 
 .footer h2 {
-  font-size:16px;
-  color:#EAE2D8;
+  font-size: 16px;
+  color: #EAE2D8;
 }
 
 .footer .card-1 {
-  width:700px;
-  margin-left:100px;
+  width: 700px;
+  margin-left: 100px;
 }
 
 .footer .card-2 {
-  width:230px;
+  width: 230px;
 }
 
 .footer .card-2 img {
-  padding:4px;
+  padding: 4px;
   transition: all .2s ease-in-out;
 }
 
